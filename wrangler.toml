@@ -1,0 +1,13 @@
+name = "nocturne-community"
+main = "src/main.jsx"
+compatibility_date = "2023-10-25"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "modules"
+main = "src/main.jsx"
